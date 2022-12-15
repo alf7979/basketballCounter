@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: orbitron;
+}
+
+@font-face {
+    font-family: orbitron;
+    src: url("fonts/Orbitron/Orbitron-VariableFont_wght.ttf");
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+}
+
+.box {
+    border: 1px solid red;
+    width: 155px;
+    height: 120px;
+    text-align: center;
+    left: 82px;
+    top: 125px;
+    border-radius: 10px;
+    background: black;
+    color: red;
+}
+
+.btn {
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.number {
+    width: 117px;
+    height: 120px;
+    margin: 40px 20px;
+}
